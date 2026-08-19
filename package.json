@@ -1,0 +1,13 @@
+{
+  "name": "seo-intelligence-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend ci && npm --prefix frontend ci",
+    "start": "npm --prefix backend start",
+    "test": "npm --prefix backend test",
+    "check": "npm --prefix backend run check && npm --prefix frontend run check",
+    "build": "npm --prefix frontend run build"
+  }
+}
+
